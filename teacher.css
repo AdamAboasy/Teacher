@@ -28,3 +28,14 @@ body{
     margin-left: 20px;
     color: white;
 }
+
+.up{
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: brown;
+    color: white;
+    justify-content:center;
+    text-align: center;
+    margin-left: 550px;
+    margin-bottom: 30px;
+}
