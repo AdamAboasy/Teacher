@@ -39,3 +39,8 @@ body{
     margin-left: 550px;
     margin-bottom: 30px;
 }
+
+.up:hover{
+    border-radius: 30%;
+    transition: 0.3;
+}
