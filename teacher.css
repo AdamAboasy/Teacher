@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(0, 0, 57);
+}
+
+
+.link{
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
+
+.set{
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: left;
+    text-align: left;
+    color: white;
+    text-decoration: none;
+}
+
+.set:hover{
+    margin-left: 50px;
+    transition: 0.3s;
+}
+
+.pag{
+    margin-left: 20px;
+    color: white;
+}
