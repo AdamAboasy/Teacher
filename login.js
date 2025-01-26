@@ -1,3 +1,18 @@
+// Function to toggle password visibility
+function togglePasswordVisibility() {
+    const passwordInput = document.getElementById('password');
+    const toggleIcon = document.querySelector('.toggle-password');
+
+    if (passwordInput.type === 'password') {
+        passwordInput.type = 'text';
+        toggleIcon.textContent = '👁️';
+    } else {
+        passwordInput.type = 'password';
+        toggleIcon.textContent = '👁️';
+    }
+}
+
+// Handle form submission
 document.getElementById('loginForm').addEventListener('submit', function(event) {
     event.preventDefault();
 
@@ -12,7 +27,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
 
         // Redirect to the dashboard after 2 seconds
         setTimeout(function() {
-            window.location.href = "welcome.html";
+            window.location.href = "dashboard.html";
         }, 2000);
     } else {
         messageElement.textContent = "Invalid username or password!";
