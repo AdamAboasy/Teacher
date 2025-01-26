@@ -12,7 +12,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
 
         // Redirect to the dashboard after 2 seconds
         setTimeout(function() {
-            window.location.href = "dashboard.html";
+            window.location.href = "welcome.html";
         }, 2000);
     } else {
         messageElement.textContent = "Invalid username or password!";
