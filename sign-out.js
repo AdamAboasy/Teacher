@@ -8,5 +8,5 @@ document.getElementById('signOutButton').addEventListener('click', function() {
     alert('You have been signed out.');
 
     // Redirect to the login page
-    window.location.href = 'login.html';
+    window.location.href = 'teacher.html';
 });
