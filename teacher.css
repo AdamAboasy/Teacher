@@ -1,9 +1,8 @@
-body{
+body {
     background-color: rgb(0, 0, 57);
 }
 
-
-.link{
+.link {
     font-family: 'Courier New', Courier, monospace;
     justify-content: center;
     text-align: center;
@@ -11,7 +10,7 @@ body{
     text-decoration: underline;
 }
 
-.set{
+.set {
     font-family: 'Courier New', Courier, monospace;
     justify-content: left;
     text-align: left;
@@ -19,28 +18,23 @@ body{
     text-decoration: none;
 }
 
-.set:hover{
+.set:hover {
     margin-left: 50px;
     transition: 0.3s;
 }
 
-.pag{
+.pag {
     margin-left: 20px;
     color: white;
 }
 
-.up{
+.up {
     padding: 10px 20px;
     text-decoration: none;
     background-color: brown;
     color: white;
-    justify-content:center;
+    justify-content: center;
     text-align: center;
     margin-left: 550px;
     margin-bottom: 30px;
-}
-
-.up:hover{
-    border-radius: 30%;
-    transition: 0.3;
 }
