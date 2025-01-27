@@ -6,8 +6,13 @@ if (savedData) {
     console.log('Username:', userData.username);
     console.log('Email:', userData.email);
 
+    // Display the image if it exists
+    if (userData.image) {
+        document.getElementById('profileImage').src = userData.image;
+    }
+
     // Display the data on the page (optional)
-    document.getElementById('welcomeMessage').textContent = `Welcome, ${userData.username} !`;
+    document.getElementById('welcomeMessage').textContent = `Welcome, ${userData.username}!`;
 } else {
     console.log('No user data found in local storage.');
     document.getElementById('welcomeMessage').textContent = 'No user data found.';
