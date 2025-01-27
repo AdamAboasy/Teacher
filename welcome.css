@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(0, 0, 57);
+    font-family: Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+
+#welcomeMessage {
+    text-align: center;
+    font-size: 32px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    text-align: justify;
+    text-indent: 2em;
+    hyphens: auto;
+    word-wrap: break-word;
+    margin-left: 25px;
+}
+
+a {
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: brown;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    margin-left: 550px;
+    margin-bottom: 30px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: rgb(153, 102, 0);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
