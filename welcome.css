@@ -32,7 +32,7 @@ p {
     margin-left: 25px;
 }
 
-a {
+.a {
     padding: 10px 20px;
     text-decoration: none;
     background-color: brown;
@@ -44,8 +44,34 @@ a {
     transition: background-color 0.3s ease;
 }
 
-a:hover {
+.a:hover {
     background-color: rgb(153, 102, 0);
     cursor: pointer;
     transition: background-color 0.3s ease;
+}
+
+
+.mean {
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
+
+.st{
+    color: red;
+}
+
+.link{
+    color: rgb(255, 102, 0);
+    text-decoration: none;
+}
+
+.link:hover{
+    margin-left: 20px;
+    transition: 0.5s;
+    padding: 6px 30px;
+    background-color: white;
+    border-radius: 20%;
 }
