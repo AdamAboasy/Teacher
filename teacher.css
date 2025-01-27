@@ -31,10 +31,17 @@ body {
 .up {
     padding: 10px 20px;
     text-decoration: none;
-    background-color: brown;
+    background-color: green;
     color: white;
-    justify-content: center;
-    text-align: center;
-    margin-left: 550px;
-    margin-bottom: 30px;
+    justify-content:left;
+    text-align: left;
+    margin-left: 799px;
+
+}
+
+.up:hover{
+    background-color: red;
+    color: white;
+    border-radius: 20%;
+    transition: 0.3s;
 }
