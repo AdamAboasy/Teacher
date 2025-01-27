@@ -9,8 +9,16 @@ body {
 #welcomeMessage {
     text-align: center;
     font-size: 32px;
-    padding: 20px;
+    padding: 0 20px 20px;
     margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+#profileImage {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 100px;
 }
 
 p {
