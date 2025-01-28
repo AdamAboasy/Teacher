@@ -18,7 +18,6 @@ document.addEventListener("DOMContentLoaded", function() {
         // Populate the form fields
         document.getElementById('username').value = userData.username;
         document.getElementById('email').value = userData.email;
-        document.getElementById('image').value = userData.image;
     } else {
         console.log('No user data found in local storage.');
         document.getElementById('welcomeMessage').textContent = 'No user data found.';
@@ -38,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Add a click event listener to the logout button
     document.getElementById("logoutButton").addEventListener("click", function() {
         localStorage.removeItem('userData'); // Clear user data
-        window.location.href = "signout.html"; // Redirect to the login page
+        window.location.href = "sign out.html "; // Redirect to the login page
     });
 
     // Add a submit event listener to the profile form
@@ -49,7 +48,6 @@ document.addEventListener("DOMContentLoaded", function() {
         const updatedUserData = {
             username: document.getElementById('username').value,
             email: document.getElementById('email').value,
-            image: document.getElementById('image').value,
         };
 
         // Save updated data to local storage
@@ -57,7 +55,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
         // Update the displayed data
         document.getElementById('welcomeMessage').textContent = `${updatedUserData.username}`;
-        document.getElementById('profileImage').src = updatedUserData.image;
 
         alert('Profile updated successfully!');
     });
@@ -77,8 +74,8 @@ document.addEventListener("DOMContentLoaded", function() {
     //     }
     // }
 
-    // Set the initial theme when the page loads
-    setThemeFromLocalStorage();
+    // // Set the initial theme when the page loads
+    // setThemeFromLocalStorage();
 
     // // Add a click event listener to the theme toggle button
     // themeToggle.addEventListener('click', function() {
