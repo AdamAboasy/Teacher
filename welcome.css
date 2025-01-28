@@ -65,6 +65,8 @@ p {
 
 .st{
     color: red;
+    text-decoration: underline;
+
 }
 
 .link{
@@ -78,10 +80,12 @@ p {
     padding: 6px 30px;
     background-color: black;
     border-radius: 20%;
+    color: rgb(255, 17, 0);
 }
 
 .pri{
     color: yellow;
+    text-decoration: underline;
 }
 
 h3{
@@ -90,5 +94,5 @@ h3{
 
 
 h4{
-    color: purple;
+    color: goldenrod;
 }
