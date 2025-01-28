@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="profile.css">
+    <title>Profile</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Theme Toggle Button -->
+        <!-- <button id="themeToggle" class="theme-toggle">🌙</button> -->
+
+        <!-- Profile Image -->
+        <img id="profileImage" alt="Profile Image" class="profile-image">
+
+        <!-- Welcome Message -->
+        <h1 id="welcomeMessage" class="welcome-message"></h1>
+
+        <!-- Profile Editing Form -->
+        <form id="profileForm" class="profile-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="image">Profile Image URL:</label>
+            <input type="url" id="image" name="image" required>
+
+            <button type="submit" class="save-button">Save Changes</button>
+        </form>
+
+        <!-- Logout Button -->
+        <button id="logoutButton" class="logout-button">Logout</button>
+
+        <!-- Back Button -->
+        <button id="backButton" class="back-button">Back to Home</button>
+    </div>
+
+    <script src="profile.js"></script>
+</body>
+
+</html>
