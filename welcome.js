@@ -1,5 +1,4 @@
-// Ensure the DOM is fully loaded before running the script
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     // Retrieve user data from local storage
     const savedData = localStorage.getItem('userData');
 
@@ -21,8 +20,25 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     // Add a click event listener to the profile image
-    document.getElementById("profileImage").addEventListener("click", function() {
+    document.getElementById("profileImage").addEventListener("click", function () {
         console.log("Image clicked!"); // Check if this appears in the console
         window.open("profile.html");
+    });
+
+    // Search Functionality
+    document.getElementById('searchButton').addEventListener('click', function () {
+        const searchQuery = document.getElementById('searchInput').value.toLowerCase();
+        const headers = document.querySelectorAll('h2,h3, h4'); // Select all h3 and h4 elements
+
+        headers.forEach(header => {
+            const text = header.textContent.toLowerCase();
+            if (text.includes(searchQuery)) {
+                header.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                header.style.backgroundColor = 'black'; // Highlight the found element
+                setTimeout(() => {
+                    header.style.backgroundColor = ''; // Remove highlight after 2 seconds
+                }, 2000);
+            }
+        });
     });
 });
