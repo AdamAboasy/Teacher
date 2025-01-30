@@ -4,7 +4,7 @@ body {
     color: rgb(255, 255, 255);
     margin: 0;
     padding: 0;
-    margin-left:15px ;
+    margin-left: 15px;
     margin-bottom: 10px;
 }
 
@@ -23,15 +23,31 @@ body {
     margin-left: 100px;
 }
 
-p {
-    font-size: 18px;
-    margin-bottom: 20px;
-    line-height: 1.5;
-    text-align: justify;
-    text-indent: 2em;
-    hyphens: auto;
-    word-wrap: break-word;
-    margin-left: 25px;
+#searchContainer {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#searchInput {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+}
+
+#searchButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#searchButton:hover {
+    background-color: #0056b3;
 }
 
 .a {
@@ -47,13 +63,12 @@ p {
 }
 
 .a:hover {
-    background-color:green;
+    background-color: green;
     cursor: pointer;
     transition: background-color 0.3s ease;
     border-radius: 20%;
     transition: 0.5;
 }
-
 
 .mean {
     font-family: 'Courier New', Courier, monospace;
@@ -63,19 +78,19 @@ p {
     text-decoration: underline;
 }
 
-.st{
+.st {
     color: red;
     text-decoration: underline;
     text-align: center;
     justify-content: center;
 }
 
-.link{
+.link {
     color: rgb(255, 102, 0);
     text-decoration: none;
 }
 
-.link:hover{
+.link:hover {
     margin-left: 30px;
     transition: 0.5s;
     padding: 6px 30px;
@@ -84,23 +99,21 @@ p {
     color: rgb(255, 17, 0);
 }
 
-.pri{
+.pri {
     color: yellow;
     text-decoration: underline;
     text-align: center;
     justify-content: center;
 }
 
-h3{
+h3 {
     color: rgb(0, 255, 166);
 }
 
-
-h4{
+h4 {
     color: goldenrod;
 }
 
-
-hr{
+hr {
     color: green;
 }
